@@ -14,11 +14,17 @@ def batch_badge_creator(names)
 
 end
 
-def assign_rooms(name)
+def assign_rooms(names)
 
-  rooms = (1..7)
+  room = 0
   #rooms 1-7
-  puts "Hello #{speaker}! You will be assigned to room #{room number}!"
+
+  while rooms < 6
+
+    puts "Hello #{names[room]}! You will be assigned to room #{room+1}!"
+    room +=1
+    
+  end
 
 
 
