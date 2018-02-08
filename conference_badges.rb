@@ -16,7 +16,8 @@ end
 
 def assign_rooms(name)
 
-#rooms 1-7
+  rooms = (1..7)
+  #rooms 1-7
   puts "Hello #{speaker}! You will be assigned to room #{room number}!"
 
 
