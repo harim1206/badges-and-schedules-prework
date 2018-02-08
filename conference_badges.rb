@@ -14,7 +14,7 @@ def batch_badge_creator(names)
 
 end
 
-def assign_rooms(speakersArr)
+def assign_rooms(name)
 
 #rooms 1-7
   puts "Hello #{speaker}! You will be assigned to room #{room number}!"
