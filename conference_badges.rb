@@ -6,8 +6,8 @@ end
 
 def batch_badge_creator(arr)
 
-  arr.each do |name|
-    badge_maker(name)
+  badgeArr = arr.each map |name|
+
   end
 
 end
