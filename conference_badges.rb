@@ -21,7 +21,7 @@ def assign_rooms(names)
 
   while room < 6
 
-    puts "Hello #{names[room]}! You will be assigned to room #{room+1}!"
+    "Hello #{names[room]}! You will be assigned to room #{room+1}!"
     room +=1
 
   end
