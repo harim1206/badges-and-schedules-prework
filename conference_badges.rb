@@ -18,18 +18,11 @@ def assign_rooms(names)
 
   room = 0
   arr = []
-  #rooms 1-7
 
   while room < 7
-
     arr.push("Hello, #{names[room]}! You'll be assigned to room #{room+1}!")
     room +=1
-
   end
 
   arr
-
-
-
-
 end
