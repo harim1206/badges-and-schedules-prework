@@ -4,9 +4,9 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(arr)
+def batch_badge_creator(names)
 
-  arr.map |name|
+  names.map |name|
 
   end
 
