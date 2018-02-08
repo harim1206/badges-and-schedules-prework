@@ -6,9 +6,7 @@ end
 
 def batch_badge_creator(arr)
 
-  badgeArr = arr.map |name|
-
-    badge_maker(name)
+  arr.map |name|
 
   end
 
