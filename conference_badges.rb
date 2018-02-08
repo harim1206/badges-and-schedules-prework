@@ -27,6 +27,8 @@ def assign_rooms(names)
 
   end
 
+  arr
+
 
 
 end
