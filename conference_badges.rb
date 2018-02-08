@@ -19,11 +19,11 @@ def assign_rooms(names)
   room = 0
   #rooms 1-7
 
-  while rooms < 6
+  while room < 6
 
     puts "Hello #{names[room]}! You will be assigned to room #{room+1}!"
     room +=1
-    
+
   end
 
 
